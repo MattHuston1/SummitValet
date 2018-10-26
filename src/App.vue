@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header />
+    <!-- <img src="./assets/summitLogo.png" alt=""> -->
     <router-view/>
     <Footer />
   </div>
@@ -29,12 +30,15 @@ export default {
 }
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
-    url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/11903963_468811816631537_3665392514529807699_n.jpg?_nc_cat=101&_nc_ht=scontent-dfw5-1.xx&oh=6ef8d6311ad4db7ae94dcca4b236117d&oe=5C813D04");
-  background-size: 100%;
+    url("./assets/SummitCar.jpg");
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  /* /* width: 100%; */
+  /* height: auto;  */
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 h1 {
   color: white;

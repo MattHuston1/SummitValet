@@ -1,6 +1,6 @@
 <template>
     <div id="Footer">
-    <small>&copy; 2018 Supply Rabbit - All Rights Reserved</small>
+    <small>&copy; 2018 Summit Valet - All Rights Reserved</small>
     </div>
 </template>
 

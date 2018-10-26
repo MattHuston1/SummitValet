@@ -33,6 +33,7 @@ body {
     url("./assets/SummitCar.jpg");
   /* background-size: 100% 100%; */
   background-size: cover;
+  position: fixed;
   /* /* width: 100%; */
   /* height: auto;  */
   background-repeat: no-repeat;
